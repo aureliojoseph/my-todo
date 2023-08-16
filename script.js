@@ -1,5 +1,9 @@
 'use strict'
 
+const yearEl = document.querySelector(".year")
+const currentYear = new Date().getFullYear()
+yearEl.textContent = currentYear
+
 const inputField = document.getElementById('input-item')
 const addButton = document.getElementById('add-button')
 const todoList = document.getElementById('todo-list')
